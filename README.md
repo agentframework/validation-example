@@ -6,22 +6,14 @@ This example will validate using following data model
 ```ts
 
 class Project {
-  @mandatory()
-  name: string;
+  @mandatory() name: string;
 }
 
 class User {
-  @mandatory()
-  id: number;
-
-  @mandatory()
-  name: string;
-
-  @optional()
-  email: string;
-
-  @optional()
-  project: Project;
+  @mandatory() id: number;
+  @mandatory() name: string;
+  @optional() email: string;
+  @optional() project: Project;
 }
 ```
 
