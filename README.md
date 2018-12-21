@@ -12,8 +12,8 @@ class Project {
 class User {
   @mandatory() id: number;
   @mandatory() name: string;
-  @optional() email: string;
-  @optional() project: Project;
+  @optional()  email: string;
+  @optional()  project: Project;
 }
 ```
 
