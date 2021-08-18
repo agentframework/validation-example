@@ -1,12 +1,12 @@
 {
   "name": "validation-example",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "engines": {
     "node": ">=8.5.0"
   },
   "scripts": {
-    "start": "node --require ts-node/register index.ts"
+    "start": "npx tsmon index.ts"
   },
   "description": "Example for @agentframework/validation",
   "prettier": {
@@ -15,10 +15,6 @@
   },
   "author": "Ling Zhang",
   "dependencies": {
-    "@agentframework/validation": "~0.0.3"
-  },
-  "devDependencies": {
-    "ts-node": "^7.0.1",
-    "typescript": "^3.2.2"
+    "@agentframework/validation": "latest"
   }
 }
